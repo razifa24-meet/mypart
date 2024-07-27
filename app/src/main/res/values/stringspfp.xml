@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- profile_photos strings -->
+
+	<string name="app_name">Page 3</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="feed_ek1_string">Profile</string>
+	<string name="username_string">Username</string>
+	<string name="current_forums__string">Current forums:</string>
+	<string name="_70_string">70</string>
+	<string name="edit_profile_string">Edit profile</string>
+	<string name="header_string">Header</string>
+	<string name="he_ll_want_to_use_your_yacht__and_i_don_t_want_this_thing_smelling_like_fish__string">Hell want to use your yacht, and I dont want this thing smelling like fish.</string>
+	<string name="_8m_ago_string">8m ago</string>
+	<string name="all_points_1000_string">All points:1000</string>
+	<string name="forum_name_string">Forum name</string>
+	<string name="points___80_string">points : 80</string>
+	<string name="forum_name_ek1_string">Forum name</string>
+	<string name="points___80_ek1_string">points : 80</string>
+	<string name="forum_name_ek2_string">Forum name</string>
+	<string name="points___80_ek2_string">points : 80</string>
+</resources>

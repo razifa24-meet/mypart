@@ -1,0 +1,140 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		iphone_14___15_pro_max___10
+	 *	@date 		Saturday 27th of July 2024 08:14:49 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_14___15_pro_max___10"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_14___15_pro_max___10_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+
+				<View
+					android:id="@+id/_bg__iphone_14___15_pro_max___10_ek2"
+					android:layout_width="410dp"
+					android:layout_height="735dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__iphone_14___15_pro_max___10_ek2_shape" />
+
+				<ImageView android:id="@+id/ellipse_34"
+					android:src="@drawable/ellipse_34"
+					android:contentDescription="@string/ellipse_34"
+					 android:layout_marginStart="47dp"
+					android:layout_marginTop="24dp"
+					android:layout_width="335dp"
+					android:layout_height="331dp" />
+
+				<View   android:id="@+id/rectangle_59"
+					android:background="@drawable/rectangle_59_shape"
+					 android:layout_marginStart="74dp"
+					android:layout_marginTop="339dp"
+					android:layout_width="280dp"
+					android:layout_height="40dp" />
+
+				<TextView android:id="@+id/username_ek1"
+					android:textSize="18sp"
+					android:textColor="@color/username_ek1_color"
+					android:layout_marginStart="85dp"
+					android:layout_marginTop="346dp"
+					android:layout_width="224dp"
+					android:layout_height="39dp"
+					android:text="@string/username_ek1_string"
+					 />
+
+				<View   android:id="@+id/rectangle_60"
+					android:background="@drawable/rectangle_60_shape"
+					android:layout_marginStart="74dp"
+					android:layout_marginTop="410dp"
+					android:layout_width="280dp"
+					android:layout_height="40dp" />
+
+				<TextView android:id="@+id/password"
+					android:textSize="18sp"
+					android:textColor="@color/password_color"
+					android:layout_marginStart="84dp"
+					android:layout_marginTop="415dp"
+					android:layout_width="224dp"
+					android:layout_height="39dp"
+					android:text="@string/password_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/frame_4"
+					android:background="#D53838"
+					android:layout_marginTop="560dp"
+					android:layout_marginStart="155dp"
+					android:layout_width="130dp"
+					android:layout_height="wrap_content"
+					>
+
+
+
+
+						<TextView
+							android:id="@+id/sign_in_ek1"
+							android:layout_width="115dp"
+							android:layout_height="46dp"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginStart="25dp"
+							android:text="@string/sign_in_ek1_string"
+							android:textColor="@color/_bg__iphone_14___15_pro_max___10_ek2_color"
+							android:textSize="26sp"
+							android:textStyle="bold" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/dont_have_an_acount__sign_up"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/forgot_password__color"
+					android:layout_marginStart="54dp"
+					android:layout_marginTop="650dp"
+					android:layout_width="310dp"
+					android:layout_height="30dp"
+					android:text="@string/dont_have_an_acount__sign_up_string"
+					 />
+
+				<TextView android:id="@+id/forgot_password_"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/forgot_password__color"
+					android:layout_marginStart="63dp"
+					android:layout_marginTop="490dp"
+					android:layout_width="309dp"
+					android:layout_height="30dp"
+					android:text="@string/forgot_password__string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

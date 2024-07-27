@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- iphone_14___15_pro_max___10 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="username_ek1_string">username</string>
+	<string name="password_string">password</string>
+	<string name="sign_in_ek1_string">sign in</string>
+	<string name="dont_have_an_acount__sign_up_string">Dont have an acount? Sign up</string>
+	<string name="forgot_password__string">Forgot password?</string>
+    <string name="ellipse_34">ellipse_34</string>
+    <string name="rectangle_239">rectangle_239</string>
+	<string name="icon">icon</string>
+	<string name="ellipse_6">ellipse_6</string>
+	<string name="notch">notch</string>
+	<string name="rectangle">rectangle</string>
+	<string name="combined_shape">combined_shape</string>
+	<string name="rectangle_ek1">rectangle_ek1</string>
+	<string name="wifi">wifi</string>
+	<string name="mobile_signal">mobile_signal</string>
+	<string name="_9_41">_9_41</string>
+	<string name="line_17">line_17</string>
+	<string name="image_18">image_18</string>
+</resources>
