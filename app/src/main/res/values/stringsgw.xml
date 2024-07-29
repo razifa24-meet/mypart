@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- global_warming_news strings -->
+
+	<string name="app_name">Page 3</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="news_string">news</string>
+	<string name="chats_string">chats</string>
+	<string name="_5_8_string">5/8</string>
+	<string name="news_ek1_string">news</string>
+	<string name="chats_ek1_string">chats</string>
+	<string name="header_string">global warming now worse than ever</string>
+	<string name="he_ll_want_to_use_your_yacht__and_i_don_t_want_this_thing_smelling_like_fish__string">scientists predict the average temperatures to rise rapidly in the next decades</string>
+	<string name="_8m_ago_string">8m ago</string>
+	<string name="header_ek1_string">climate change is a lie</string>
+	<string name="he_ll_want_to_use_your_yacht__and_i_don_t_want_this_thing_smelling_like_fish__ek1_string">dont let the deep state lie to you</string>
+	<string name="_8m_ago_ek1_string">8m ago</string>
+</resources>

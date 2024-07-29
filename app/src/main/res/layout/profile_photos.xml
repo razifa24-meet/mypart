@@ -15,7 +15,7 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/profile_photos" 
+	<ScrollView android:id="@+id/profile_photos"
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
 
@@ -142,7 +142,8 @@
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginStart="3dp"
-						android:layout_marginTop="8dp">
+						android:layout_marginTop="8dp"
+                        tools:ignore="UselessParent">
 
 						<View
 							android:id="@+id/line_3_ek2"
@@ -207,7 +208,8 @@
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp">
+						android:layout_marginTop="0dp"
+                        tools:ignore="UselessParent">
 
 
 						<RelativeLayout
@@ -733,7 +735,7 @@
 					android:textSize="18sp" />
 
 			</RelativeLayout>
-		</RelativeLayout>
+		</ScrollView>
 
-	</ScrollView>
+
 </HorizontalScrollView>
