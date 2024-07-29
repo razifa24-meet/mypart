@@ -439,7 +439,7 @@
 
 				<RelativeLayout android:id="@+id/content_blocks"
 					android:layout_marginTop="126dp"
-					android:layout_marginStart="8dp"
+					android:layout_marginStart="25dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
