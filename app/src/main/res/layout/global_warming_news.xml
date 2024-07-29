@@ -38,7 +38,7 @@
 					android:layout_height="735dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
-					tools:ignore="UselessParent">
+					tools:ignore="UselessParent"/>
 
 
 				<RelativeLayout android:id="@+id/ios_status_bar_black"
@@ -674,4 +674,3 @@
 		</ScrollView>
 
 	</HorizontalScrollView>
-</HorizontalScrollView>
