@@ -1,0 +1,148 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		home_page
+	 *	@date 		Monday 29th of July 2024 08:14:32 PM
+	 *	@title 		Page 4
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/home_page" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout
+				android:id="@+id/page_home_page_ek1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+                tools:ignore="UselessParent">
+
+				<ImageView
+					android:id="@+id/ellipse_35"
+					android:layout_width="88dp"
+					android:layout_height="83dp"
+					android:layout_marginStart="144dp"
+					android:layout_marginTop="65dp"
+					android:contentDescription="ellipse_35"
+					android:src="@drawable/ellipse_35"
+                    tools:ignore="HardcodedText" />
+
+
+				<RelativeLayout
+					android:id="@+id/input_text"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="23dp"
+					android:layout_marginTop="172dp">
+
+					<ImageView
+						android:id="@+id/bg"
+						android:layout_width="343dp"
+						android:layout_height="50dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="bg"
+						android:src="@drawable/bg_ek7"
+                        tools:ignore="HardcodedText" />
+
+					<TextView
+						android:id="@+id/email"
+						android:layout_width="75dp"
+						android:layout_height="30dp"
+						android:layout_marginStart="146dp"
+						android:layout_marginTop="16dp"
+						android:text="@string/email_string"
+						android:textColor="@color/_bg__global_warming_news_ek2_color"
+						android:textSize="16sp"
+                        tools:ignore="RtlHardcoded" />
+
+					<View
+						android:id="@+id/_bg__home_page_ek2"
+						android:layout_width="375dp"
+						android:layout_height="812dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="60dp"
+						android:background="@drawable/_bg__home_page_ek2_shape" />
+
+				</RelativeLayout>
+
+				<ImageView
+					android:id="@+id/west_bank_1"
+					android:layout_width="120dp"
+					android:layout_height="127.5dp"
+					android:layout_marginStart="41dp"
+					android:layout_marginTop="290dp"
+					android:contentDescription="west_bank_1"
+					android:src="@drawable/west_bank_1"
+                    tools:ignore="HardcodedText" />
+
+				<ImageView
+					android:id="@+id/religion_1"
+					android:layout_width="120dp"
+					android:layout_height="127.5dp"
+					android:layout_marginStart="217dp"
+					android:layout_marginTop="290dp"
+					android:contentDescription="religion_1"
+					android:src="@drawable/religion_1"
+                    tools:ignore="HardcodedText" />
+
+				<ImageView
+					android:id="@+id/politics_1"
+					android:layout_width="120dp"
+					android:layout_height="127.5dp"
+					android:layout_marginStart="41dp"
+					android:layout_marginTop="451dp"
+					android:contentDescription="politics_1"
+					android:src="@drawable/politics_1"
+                    tools:ignore="HardcodedText" />
+
+				<ImageView
+					android:id="@+id/gaza_1"
+					android:layout_width="120dp"
+					android:layout_height="127.5dp"
+					android:layout_marginStart="41dp"
+					android:layout_marginTop="623dp"
+					android:contentDescription="gaza_1"
+					android:src="@drawable/gaza_1"
+                    tools:ignore="HardcodedText" />
+
+				<ImageView
+					android:id="@+id/idf_1"
+					android:layout_width="120dp"
+					android:layout_height="127.5dp"
+					android:layout_marginStart="217dp"
+					android:layout_marginTop="623dp"
+					android:contentDescription="idf_1"
+					android:src="@drawable/idf_1"
+                    tools:ignore="HardcodedText" />
+
+				<ImageView
+					android:id="@+id/religion_2"
+					android:layout_width="120dp"
+					android:layout_height="127.5dp"
+					android:layout_marginStart="217dp"
+					android:layout_marginTop="451dp"
+					android:contentDescription="religion_2"
+					android:src="@drawable/religion_2"
+                    tools:ignore="HardcodedText" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
