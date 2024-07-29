@@ -22,4 +22,8 @@
 	<string name="_9_41">_9_41</string>
 	<string name="line_17">line_17</string>
 	<string name="image_18">image_18</string>
+    <string name="feed_ek2_string" />
+	<string name="additional_content" />
+	<string name="footer_button_text" />
+	<string name="footer_text" />
 </resources>

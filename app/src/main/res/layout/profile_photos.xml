@@ -15,7 +15,7 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/profile_photos"
+	<RelativeLayout android:id="@+id/profile_photos"
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
 
@@ -142,8 +142,7 @@
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginStart="3dp"
-						android:layout_marginTop="8dp"
-                        tools:ignore="UselessParent">
+						android:layout_marginTop="8dp">
 
 						<View
 							android:id="@+id/line_3_ek2"
@@ -208,8 +207,7 @@
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-                        tools:ignore="UselessParent">
+						android:layout_marginTop="0dp">
 
 
 						<RelativeLayout
@@ -325,8 +323,8 @@
 					android:layout_width="165dp"
 					android:layout_height="57dp"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginStart="85dp"
-					android:layout_marginTop="263dp"
+					android:layout_marginStart="110dp"
+					android:layout_marginTop="235dp"
 					android:gravity="center"
 					android:text="@string/username_string"
 					android:textColor="@color/username_color"
@@ -349,8 +347,8 @@
 					android:layout_width="47dp"
 					android:layout_height="46dp"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginStart="249dp"
-					android:layout_marginTop="269dp"
+					android:layout_marginStart="257dp"
+					android:layout_marginTop="243dp"
 					android:gravity="center"
 					android:text="@string/_70_string"
 					android:textColor="@color/_70_color"
@@ -575,7 +573,7 @@
 					android:id="@+id/rectangle_241"
 					android:layout_width="177dp"
 					android:layout_height="43dp"
-					android:layout_marginStart="96dp"
+					android:layout_marginStart="120dp"
 					android:layout_marginTop="313dp"
 					android:background="@drawable/rectangle_241_shape" />
 
@@ -595,7 +593,7 @@
 					android:layout_width="171dp"
 					android:layout_height="41dp"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginStart="97dp"
+					android:layout_marginStart="120dp"
 					android:layout_marginTop="312dp"
 					android:gravity="center"
 					android:text="@string/all_points_1000_string"
@@ -606,8 +604,8 @@
 					android:id="@+id/image_18"
 					android:layout_width="34dp"
 					android:layout_height="37dp"
-					android:layout_marginStart="285dp"
-					android:layout_marginTop="271dp"
+					android:layout_marginStart="293dp"
+					android:layout_marginTop="245dp"
 					android:contentDescription="@string/image_18"
 					android:src="@drawable/image_18" />
 
@@ -637,7 +635,7 @@
 					android:layout_width="136dp"
 					android:layout_height="30dp"
 					android:layout_marginStart="183dp"
-					android:layout_marginTop="498dp"
+					android:layout_marginTop="503dp"
 					android:background="@drawable/rectangle_245_shape" />
 
 				<TextView
@@ -646,7 +644,7 @@
 					android:layout_height="35dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginStart="203dp"
-					android:layout_marginTop="495dp"
+					android:layout_marginTop="499dp"
 					android:gravity="center"
 					android:text="@string/points___80_string"
 					android:textColor="@color/_bg__profile_photos_ek2_color"
@@ -678,7 +676,7 @@
 					android:layout_width="136dp"
 					android:layout_height="30dp"
 					android:layout_marginStart="182dp"
-					android:layout_marginTop="687dp"
+					android:layout_marginTop="692dp"
 					android:background="@drawable/rectangle_249_shape" />
 
 				<TextView
@@ -687,7 +685,7 @@
 					android:layout_height="35dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginStart="202dp"
-					android:layout_marginTop="683dp"
+					android:layout_marginTop="689dp"
 					android:gravity="center"
 					android:text="@string/points___80_ek1_string"
 					android:textColor="@color/_bg__profile_photos_ek2_color"
@@ -719,7 +717,7 @@
 					android:layout_width="136dp"
 					android:layout_height="30dp"
 					android:layout_marginStart="182dp"
-					android:layout_marginTop="594dp"
+					android:layout_marginTop="598dp"
 					android:background="@drawable/rectangle_247_shape" />
 
 				<TextView
@@ -728,14 +726,13 @@
 					android:layout_height="35dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginStart="202dp"
-					android:layout_marginTop="590dp"
+					android:layout_marginTop="594dp"
 					android:gravity="center"
 					android:text="@string/points___80_ek2_string"
 					android:textColor="@color/_bg__profile_photos_ek2_color"
 					android:textSize="18sp" />
 
 			</RelativeLayout>
-		</ScrollView>
+		</RelativeLayout>
 
-
-</HorizontalScrollView>
+	</HorizontalScrollView>

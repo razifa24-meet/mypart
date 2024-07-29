@@ -43,7 +43,7 @@
 
 				<RelativeLayout android:id="@+id/ios_status_bar_black"
 					android:layout_marginTop="0dp"
-					android:layout_marginStart="0dp"
+					android:layout_marginStart="38dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
@@ -62,7 +62,8 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="219dp"
-							android:layout_height="30dp" />
+							android:layout_height="30dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -89,7 +90,8 @@
 								android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
 								android:layout_width="22dp"
-								android:layout_height="11.33dp" />
+								android:layout_height="11.33dp"
+                                tools:ignore="HardcodedText" />
 
 							<ImageView android:id="@+id/combined_shape"
 								android:src="@drawable/combined_shape"
@@ -98,7 +100,8 @@
 								android:layout_marginStart="23dp"
 								android:layout_marginTop="4dp"
 								android:layout_width="1.33dp"
-								android:layout_height="4dp" />
+								android:layout_height="4dp"
+                                tools:ignore="HardcodedText" />
 
 							<ImageView android:id="@+id/rectangle_ek1"
 								android:src="@drawable/rectangle_ek1"
@@ -106,25 +109,12 @@
 								 android:layout_marginStart="2dp"
 								android:layout_marginTop="2dp"
 								android:layout_width="18dp"
-								android:layout_height="7.33dp" />
+								android:layout_height="7.33dp"
+                                tools:ignore="HardcodedText" />
 
 						</RelativeLayout>
 
-						<ImageView android:id="@+id/wifi"
-							android:src="@drawable/wifi"
-							android:contentDescription="wifi"
-							 android:layout_marginStart="22dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="15.27dp"
-							android:layout_height="10.97dp" />
 
-						<ImageView android:id="@+id/mobile_signal"
-							android:src="@drawable/mobile_signal"
-							android:contentDescription="mobile_signal"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="17dp"
-							android:layout_height="10.67dp" />
 
 					</RelativeLayout>
 
@@ -142,7 +132,8 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="28.43dp"
-							android:layout_height="11.09dp" />
+							android:layout_height="11.09dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -193,43 +184,17 @@
 					<ImageView android:id="@+id/bg_ek2"
 						android:src="@drawable/bg_ek2"
 						android:contentDescription="bg_ek2"
-						 android:layout_marginStart="0dp"
+						 android:layout_marginStart="30dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="192dp"
-						android:layout_height="31dp" />
+						android:layout_height="31dp"
+                        tools:ignore="HardcodedText" />
 
-					<ImageView android:id="@+id/bg_ek3"
-						android:src="@drawable/bg_ek3"
-						android:contentDescription="bg_ek3"
-						 android:layout_marginStart="2dp"
-						android:layout_marginTop="1dp"
-						android:layout_width="91dp"
-						android:layout_height="29dp" />
 
-					<TextView android:id="@+id/news"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="16sp"
-						android:textColor="@color/line_3_color"
-						android:layout_marginLeft="117dp"
-						android:layout_marginTop="6dp"
-						android:layout_width="54dp"
-						android:layout_height="30dp"
-						android:text="@string/news_string"
-						 />
 
-					<TextView android:id="@+id/chats"
-						android:textStyle="bold"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="16sp"
-						android:textColor="@color/_bg__global_warming_news_ek2_color"
-						android:layout_marginLeft="24dp"
-						android:layout_marginTop="6dp"
-						android:layout_width="56dp"
-						android:layout_height="30dp"
-						android:text="@string/chats_string"
-						 />
+
+
+
 
 				</RelativeLayout>
 
@@ -237,7 +202,7 @@
 					android:textStyle="bold"
 					android:textSize="15sp"
 					android:textColor="@color/_5_8_color"
-					android:layout_marginLeft="199dp"
+					android:layout_marginStart="199dp"
 					android:layout_marginTop="-11dp"
 					android:layout_width="45.5dp"
 					android:layout_height="28.5dp"
@@ -247,10 +212,11 @@
 				<ImageView android:id="@+id/ellipse_6"
 					android:src="@drawable/ellipse_6"
 					android:contentDescription="ellipse_6"
-					 android:layout_marginStart="300dp"
+					 android:layout_marginStart="325dp"
 					android:layout_marginTop="52dp"
 					android:layout_width="41dp"
-					android:layout_height="41dp" />
+					android:layout_height="41dp"
+                    tools:ignore="HardcodedText" />
 
 
 				<RelativeLayout android:id="@+id/ios_status_bar_black_ek1"
@@ -274,7 +240,8 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="219dp"
-							android:layout_height="30dp" />
+							android:layout_height="30dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -301,7 +268,8 @@
 								android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
 								android:layout_width="22dp"
-								android:layout_height="11.33dp" />
+								android:layout_height="11.33dp"
+                                tools:ignore="HardcodedText" />
 
 							<ImageView android:id="@+id/combined_shape_ek1"
 								android:src="@drawable/combined_shape_ek1"
@@ -310,33 +278,37 @@
 								android:layout_marginStart="23dp"
 								android:layout_marginTop="4dp"
 								android:layout_width="1.33dp"
-								android:layout_height="4dp" />
+								android:layout_height="4dp"
+                                tools:ignore="HardcodedText" />
 
 							<ImageView android:id="@+id/rectangle_ek3"
 								android:src="@drawable/rectangle_ek3"
 								android:contentDescription="rectangle_ek3"
-								 android:layout_marginStart="2dp"
+								 android:layout_marginStart="40dp"
 								android:layout_marginTop="2dp"
 								android:layout_width="18dp"
-								android:layout_height="7.33dp" />
+								android:layout_height="7.33dp"
+                                tools:ignore="HardcodedText" />
 
 						</RelativeLayout>
 
 						<ImageView android:id="@+id/wifi_ek1"
 							android:src="@drawable/wifi_ek1"
 							android:contentDescription="wifi_ek1"
-							 android:layout_marginStart="22dp"
+							 android:layout_marginStart="62dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="15.27dp"
-							android:layout_height="10.97dp" />
+							android:layout_height="10.97dp"
+                            tools:ignore="HardcodedText" />
 
 						<ImageView android:id="@+id/mobile_signal_ek1"
 							android:src="@drawable/mobile_signal_ek1"
 							android:contentDescription="mobile_signal_ek1"
-							 android:layout_marginStart="0dp"
+							 android:layout_marginStart="40dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="17dp"
-							android:layout_height="10.67dp" />
+							android:layout_height="10.67dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -354,19 +326,15 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="28.43dp"
-							android:layout_height="11.09dp" />
+							android:layout_height="11.09dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
 				</RelativeLayout>
 
 
-				<RelativeLayout android:id="@+id/page_header_ek1"
-					android:layout_marginTop="43dp"
-					android:layout_marginStart="139dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
+
 
 
 					<RelativeLayout android:id="@+id/icon_x_ek1"
@@ -396,39 +364,34 @@
 
 
 				<RelativeLayout android:id="@+id/frame_ek1"
-					android:layout_marginTop="55dp"
-					android:layout_marginStart="78dp"
+					android:layout_marginTop="50dp"
+					android:layout_marginStart="110dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/bg_ek6"
-						android:src="@drawable/bg_ek6"
-						android:contentDescription="bg_ek6"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="192dp"
-						android:layout_height="31dp" />
+
 
 					<ImageView android:id="@+id/bg_ek7"
 						android:src="@drawable/bg_ek7"
 						android:contentDescription="bg_ek7"
 						 android:layout_marginStart="96dp"
-						android:layout_marginTop="1dp"
+						android:layout_marginTop="7dp"
 						android:layout_width="91dp"
-						android:layout_height="29dp" />
+						android:layout_height="29dp"
+                        tools:ignore="HardcodedText" />
 
 					<TextView android:id="@+id/news_ek1"
 						android:layout_gravity="center_horizontal|center"
 						android:gravity="center"
 						android:textSize="16sp"
 						android:textColor="@color/news_ek1_color"
-						android:layout_marginLeft="117dp"
+						android:layout_marginStart="117dp"
 						android:layout_marginTop="6dp"
 						android:layout_width="54dp"
 						android:layout_height="30dp"
 						android:text="@string/news_ek1_string"
-						 />
+                        tools:ignore="RtlHardcoded" />
 
 					<TextView android:id="@+id/chats_ek1"
 						android:textStyle="bold"
@@ -436,8 +399,8 @@
 						android:gravity="center"
 						android:textSize="16sp"
 						android:textColor="@color/line_3_color"
-						android:layout_marginLeft="24dp"
-						android:layout_marginTop="6dp"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="8dp"
 						android:layout_width="56dp"
 						android:layout_height="30dp"
 						android:text="@string/chats_ek1_string"
@@ -456,20 +419,22 @@
 					<ImageView android:id="@+id/icon"
 						android:src="@drawable/icon"
 						android:contentDescription="icon"
-						 android:layout_marginStart="4.38dp"
+						 android:layout_marginStart="35dp"
 						android:layout_marginTop="2.58dp"
 						android:layout_width="26.25dp"
-						android:layout_height="25.83dp" />
+						android:layout_height="25.83dp"
+                        tools:ignore="HardcodedText" />
 
 				</RelativeLayout>
 
 				<ImageView android:id="@+id/ellipse_105"
 					android:src="@drawable/ellipse_105"
 					android:contentDescription="ellipse_105"
-					 android:layout_marginStart="300dp"
+					 android:layout_marginStart="325dp"
 					android:layout_marginTop="52dp"
 					android:layout_width="41dp"
-					android:layout_height="41dp" />
+					android:layout_height="41dp"
+                    tools:ignore="HardcodedText" />
 
 
 				<RelativeLayout android:id="@+id/content_blocks"
@@ -493,13 +458,14 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="343dp"
-							android:layout_height="240dp" />
+							android:layout_height="240dp"
+                            tools:ignore="HardcodedText" />
 
 						<TextView android:id="@+id/header"
 							android:textStyle="bold"
 							android:textSize="16sp"
 							android:textColor="@color/header_color"
-							android:layout_marginLeft="0dp"
+							android:layout_marginStart="0dp"
 							android:layout_marginTop="248dp"
 							android:layout_width="305dp"
 							android:layout_height="30dp"
@@ -517,7 +483,7 @@
 							<TextView android:id="@+id/he_ll_want_to_use_your_yacht__and_i_don_t_want_this_thing_smelling_like_fish_"
 								android:textSize="14sp"
 								android:textColor="@color/header_color"
-								android:layout_marginLeft="0dp"
+								android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
 								android:layout_width="362dp"
 								android:layout_height="44dp"
@@ -529,7 +495,7 @@
 								android:gravity="end"
 								android:textSize="14sp"
 								android:textColor="@color/line_3_color"
-								android:layout_marginLeft="-2dp"
+								android:layout_marginStart="-2dp"
 								android:layout_marginTop="42dp"
 								android:layout_width="62dp"
 								android:layout_height="27dp"
@@ -585,13 +551,14 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="343dp"
-							android:layout_height="240dp" />
+							android:layout_height="240dp"
+                            tools:ignore="HardcodedText" />
 
 						<TextView android:id="@+id/header_ek1"
 							android:textStyle="bold"
 							android:textSize="16sp"
 							android:textColor="@color/header_color"
-							android:layout_marginLeft="0dp"
+							android:layout_marginStart="0dp"
 							android:layout_marginTop="248dp"
 							android:layout_width="191dp"
 							android:layout_height="30dp"
@@ -609,7 +576,7 @@
 							<TextView android:id="@+id/he_ll_want_to_use_your_yacht__and_i_don_t_want_this_thing_smelling_like_fish__ek1"
 								android:textSize="14sp"
 								android:textColor="@color/header_color"
-								android:layout_marginLeft="0dp"
+								android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
 								android:layout_width="362dp"
 								android:layout_height="27dp"
@@ -621,7 +588,7 @@
 								android:gravity="end"
 								android:textSize="14sp"
 								android:textColor="@color/line_3_color"
-								android:layout_marginLeft="-2dp"
+								android:layout_marginStart="-2dp"
 								android:layout_marginTop="25dp"
 								android:layout_width="62dp"
 								android:layout_height="27dp"
@@ -677,7 +644,8 @@
 							 android:layout_marginStart="4.38dp"
 							android:layout_marginTop="2.58dp"
 							android:layout_width="26.25dp"
-							android:layout_height="25.83dp" />
+							android:layout_height="25.83dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -695,14 +663,15 @@
 							 android:layout_marginStart="4.38dp"
 							android:layout_marginTop="2.58dp"
 							android:layout_width="26.25dp"
-							android:layout_height="25.83dp" />
+							android:layout_height="25.83dp"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
 				</RelativeLayout>
 
 			</RelativeLayout>
-		</RelativeLayout>
+		</ScrollView>
 
-	</ScrollView>
+	</HorizontalScrollView>
 </HorizontalScrollView>

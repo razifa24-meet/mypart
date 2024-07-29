@@ -19,7 +19,7 @@
     -->
 	<ScrollView
 		android:id="@+id/sign_up_2"
-		android:layout_width="450dp"
+		android:layout_width="400dp"
 		android:layout_height="match_parent">
 
 		<RelativeLayout
@@ -50,7 +50,7 @@
 					android:id="@+id/ios_status_bar_black"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginStart="0dp"
+					android:layout_marginStart="21dp"
 					android:layout_marginTop="0dp">
 
 
@@ -68,7 +68,8 @@
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:contentDescription="notch"
-							android:src="@drawable/notch" />
+							android:src="@drawable/notch"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -96,7 +97,8 @@
 								android:layout_marginTop="0dp"
 								android:alpha="0.34999999403954"
 								android:contentDescription="rectangle"
-								android:src="@drawable/rectangle" />
+								android:src="@drawable/rectangle"
+                                tools:ignore="HardcodedText" />
 
 							<ImageView
 								android:id="@+id/combined_shape"
@@ -106,7 +108,8 @@
 								android:layout_marginTop="4dp"
 								android:alpha="0.40000000596046"
 								android:contentDescription="combined_shape"
-								android:src="@drawable/combined_shape" />
+								android:src="@drawable/combined_shape"
+                                tools:ignore="HardcodedText" />
 
 							<ImageView
 								android:id="@+id/rectangle_ek1"
@@ -115,7 +118,8 @@
 								android:layout_marginStart="2dp"
 								android:layout_marginTop="2dp"
 								android:contentDescription="rectangle_ek1"
-								android:src="@drawable/rectangle_ek1" />
+								android:src="@drawable/rectangle_ek1signup"
+                                tools:ignore="HardcodedText" />
 
 						</RelativeLayout>
 
@@ -126,7 +130,8 @@
 							android:layout_marginStart="22dp"
 							android:layout_marginTop="0dp"
 							android:contentDescription="wifi"
-							android:src="@drawable/wifi" />
+							android:src="@drawable/wifisignup"
+                            tools:ignore="HardcodedText" />
 
 						<ImageView
 							android:id="@+id/mobile_signal"
@@ -135,7 +140,8 @@
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:contentDescription="mobile_signal"
-							android:src="@drawable/mobile_signal" />
+							android:src="@drawable/mobile_signalsignup"
+                            tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
@@ -154,7 +160,7 @@
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:contentDescription="_9_41"
-							android:src="@drawable/_9_41"
+							android:src="@drawable/_9_41signup"
 							tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
@@ -174,7 +180,7 @@
 						android:layout_width="132dp"
 						android:layout_height="57dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="112dp"
+						android:layout_marginStart="112dp"
 						android:layout_marginTop="0dp"
 						android:gravity="center"
 						android:text="@string/log_in_string"
@@ -214,7 +220,7 @@
 					android:id="@+id/input_text"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginStart="16dp"
+					android:layout_marginStart="35dp"
 					android:layout_marginTop="128dp">
 
 					<ImageView
@@ -224,13 +230,14 @@
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:contentDescription="bg_ek2"
-						android:src="@drawable/bg_ek2" />
+						android:src="@drawable/bg_ek2"
+                        tools:ignore="HardcodedText" />
 
 					<TextView
 						android:id="@+id/email"
 						android:layout_width="104dp"
 						android:layout_height="30dp"
-						android:layout_marginLeft="16dp"
+						android:layout_marginStart="16dp"
 						android:layout_marginTop="16dp"
 						android:text="@string/email_string"
 						android:textColor="@color/line_3_color"
@@ -242,7 +249,7 @@
 					android:id="@+id/email_ek1"
 					android:layout_width="104dp"
 					android:layout_height="30dp"
-					android:layout_marginLeft="28dp"
+					android:layout_marginStart="35dp"
 					android:layout_marginTop="220dp"
 					android:text="@string/email_ek1_string"
 					android:textColor="@color/line_3_color"
@@ -252,16 +259,17 @@
 					android:id="@+id/bg_ek3"
 					android:layout_width="343dp"
 					android:layout_height="50dp"
-					android:layout_marginStart="16dp"
+					android:layout_marginStart="35dp"
 					android:layout_marginTop="198dp"
 					android:contentDescription="bg_ek3"
-					android:src="@drawable/bg_ek3" />
+					android:src="@drawable/bg_ek3"
+                    tools:ignore="HardcodedText" />
 
 				<TextView
 					android:id="@+id/phone_number"
 					android:layout_width="133dp"
 					android:layout_height="30dp"
-					android:layout_marginLeft="28dp"
+					android:layout_marginStart="50dp"
 					android:layout_marginTop="211dp"
 					android:text="@string/phone_number_string"
 					android:textColor="@color/line_3_color"
@@ -272,7 +280,7 @@
 					android:id="@+id/input_text_ek1"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginStart="19dp"
+					android:layout_marginStart="35dp"
 					android:layout_marginTop="268dp">
 
 					<ImageView
@@ -282,7 +290,8 @@
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:contentDescription="bg_ek4"
-						android:src="@drawable/bg_ek4" />
+						android:src="@drawable/bg_ek4"
+                        tools:ignore="HardcodedText" />
 
 					<TextView
 						android:id="@+id/password"
@@ -292,14 +301,15 @@
 						android:layout_marginTop="16dp"
 						android:text="@string/password_string"
 						android:textColor="@color/line_3_color"
-						android:textSize="16sp" />
+						android:textSize="16sp"
+                        tools:ignore="RtlHardcoded" />
 
 					<TextView
 						android:id="@+id/show_ek1"
 						android:layout_width="56dp"
 						android:layout_height="30dp"
 						android:layout_gravity="center_vertical|end"
-						android:layout_marginLeft="281dp"
+						android:layout_marginStart="281dp"
 						android:layout_marginTop="16dp"
 						android:gravity="end"
 						android:text="@string/show_ek1_string"
@@ -311,21 +321,23 @@
 
 				<RelativeLayout
 					android:id="@+id/button_primary"
+					android:background="#D53838"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginStart="19dp"
+					android:layout_marginStart="110dp"
 					android:layout_marginTop="371dp">
+
 
 					<TextView
 						android:id="@+id/log_in_ek1"
-						android:layout_width="74dp"
+						android:layout_width="110dp"
 						android:layout_height="30dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="138dp"
+						android:layout_marginStart="65dp"
 						android:layout_marginTop="16dp"
-						android:gravity="center"
+
 						android:text="@string/log_in_ek1_string"
-						android:textColor="@color/_bg__sign_up_2_ek2_color"
+						android:textColor="@color/background_color"
 						android:textSize="16sp"
 						android:textStyle="bold" />
 
@@ -335,7 +347,7 @@
 					android:id="@+id/already_have_an_account__login"
 					android:layout_width="267dp"
 					android:layout_height="30dp"
-					android:layout_marginLeft="63dp"
+					android:layout_marginStart="87dp"
 					android:layout_marginTop="457dp"
 					android:text="@string/already_have_an_account__login_string"
 					android:textColor="@color/show_ek1_color"
@@ -349,7 +361,8 @@
 					android:layout_marginStart="276dp"
 					android:layout_marginTop="44dp"
 					android:contentDescription="ellipse_35"
-					android:src="@drawable/ellipse_35" />
+					android:src="@drawable/ellipse_35"
+                    tools:ignore="HardcodedText" />
 
 			</RelativeLayout>
 		</RelativeLayout>
