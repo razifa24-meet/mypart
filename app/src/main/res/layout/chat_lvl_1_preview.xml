@@ -30,13 +30,13 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+                tools:ignore="UselessParent">
 
 				<View   android:id="@+id/_bg__chat_lvl_1_preview_ek2"
 					android:background="@drawable/_bg__chat_lvl_1_preview_ek2_shape"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
-					android:layout_width="375dp"
+					android:layout_width="412dp"
 					android:layout_height="812dp" />
 
 
@@ -53,12 +53,13 @@
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="235dp"
-						android:layout_height="126dp" />
+						android:layout_height="126dp"
+                        tools:ignore="HardcodedText" />
 
 					<TextView android:id="@+id/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis_"
 						android:textSize="14sp"
 						android:textColor="@color/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__color"
-						android:layout_marginLeft="16dp"
+						android:layout_marginStart="16dp"
 						android:layout_marginTop="15dp"
 						android:layout_width="222dp"
 						android:layout_height="82dp"
@@ -94,7 +95,8 @@
 					 android:layout_marginStart="78dp"
 					android:layout_marginTop="406dp"
 					android:layout_width="234dp"
-					android:layout_height="84dp" />
+					android:layout_height="84dp"
+                    tools:ignore="HardcodedText" />
 
 
 				<RelativeLayout android:id="@+id/message_send"
@@ -110,12 +112,13 @@
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="-86dp"
 						android:layout_width="235dp"
-						android:layout_height="86dp" />
+						android:layout_height="86dp"
+                        tools:ignore="HardcodedText" />
 
 					<TextView android:id="@+id/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit_"
 						android:textSize="14sp"
-						android:textColor="@color/_bg__chat_lvl_1_preview_ek2_color"
-						android:layout_marginLeft="16dp"
+						android:textColor="@color/_5_8_color"
+						android:layout_marginStart="16dp"
 						android:layout_marginTop="15dp"
 						android:layout_width="222dp"
 						android:layout_height="44dp"
@@ -129,7 +132,7 @@
 					android:gravity="center"
 					android:textSize="18sp"
 					android:textColor="@color/_bg__chat_lvl_1_preview_ek2_color"
-					android:layout_marginLeft="-29dp"
+					android:layout_marginStart="-29dp"
 					android:layout_marginTop="-837dp"
 					android:layout_width="56dp"
 					android:layout_height="35dp"
@@ -142,15 +145,17 @@
 					 android:layout_marginStart="156dp"
 					android:layout_marginTop="19dp"
 					android:layout_width="63dp"
-					android:layout_height="62dp" />
+					android:layout_height="62dp"
+                    tools:ignore="HardcodedText" />
 
 				<ImageView android:id="@+id/ellipse_113_ek2"
-					android:src="@drawable/ellipse_113_ek2"
+					android:src="@drawable/ellipse_6"
 					android:contentDescription="ellipse_113_ek2"
 					 android:layout_marginStart="308dp"
 					android:layout_marginTop="69dp"
 					android:layout_width="41dp"
-					android:layout_height="41dp" />
+					android:layout_height="41dp"
+                    tools:ignore="HardcodedText" />
 
 
 				<RelativeLayout android:id="@+id/frame"
@@ -166,27 +171,30 @@
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="192dp"
-						android:layout_height="31dp" />
+						android:layout_height="31dp"
+                        tools:ignore="HardcodedText" />
 
 					<ImageView android:id="@+id/bg_ek2"
-						android:src="@drawable/bg_ek2"
+						android:src="@drawable/bg_ek7"
 						android:contentDescription="bg_ek2"
 						 android:layout_marginStart="2dp"
 						android:layout_marginTop="1dp"
 						android:layout_width="91dp"
-						android:layout_height="29dp" />
+						android:layout_height="29dp"
+                        tools:ignore="HardcodedText" />
 
 					<TextView android:id="@+id/news"
 						android:layout_gravity="center_horizontal|center"
 						android:gravity="center"
+						android:contentDescription="bg_ek2"
 						android:textSize="16sp"
 						android:textColor="@color/news_color"
-						android:layout_marginLeft="117dp"
+						android:layout_marginStart="117dp"
 						android:layout_marginTop="6dp"
 						android:layout_width="54dp"
 						android:layout_height="30dp"
 						android:text="@string/news_string"
-						 />
+                        tools:ignore="HardcodedText" />
 
 					<TextView android:id="@+id/chats"
 						android:textStyle="bold"
@@ -194,7 +202,7 @@
 						android:gravity="center"
 						android:textSize="16sp"
 						android:textColor="@color/_bg__chat_lvl_1_preview_ek2_color"
-						android:layout_marginLeft="24dp"
+						android:layout_marginStart="24dp"
 						android:layout_marginTop="6dp"
 						android:layout_width="56dp"
 						android:layout_height="30dp"
@@ -217,7 +225,8 @@
 						 android:layout_marginStart="4dp"
 						android:layout_marginTop="2.5dp"
 						android:layout_width="24dp"
-						android:layout_height="25dp" />
+						android:layout_height="25dp"
+                        tools:ignore="HardcodedText" />
 
 				</RelativeLayout>
 
@@ -231,15 +240,15 @@
 					android:layout_width="114dp"
 					android:layout_height="30dp"
 					android:text="@string/required_lvl_1_string"
-					 />
+                    tools:ignore="RtlHardcoded" />
 
 				<TextView android:id="@+id/topic_name"
 					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
 					android:textSize="30sp"
 					android:textColor="@color/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__color"
-					android:layout_marginLeft="101dp"
-					android:layout_marginTop="171dp"
+					android:layout_marginStart="101dp"
+					android:layout_marginTop="125dp"
 					android:layout_width="184dp"
 					android:layout_height="93dp"
 					android:text="@string/topic_name_string"
@@ -259,17 +268,18 @@
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="235dp"
-						android:layout_height="126dp" />
+						android:layout_height="126dp"
+                        tools:ignore="HardcodedText" />
 
 					<TextView android:id="@+id/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__ek1"
 						android:textSize="14sp"
 						android:textColor="@color/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__color"
-						android:layout_marginLeft="16dp"
+						android:layout_marginStart="16dp"
 						android:layout_marginTop="15dp"
 						android:layout_width="222dp"
 						android:layout_height="82dp"
 						android:text="@string/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__ek1_string"
-						 />
+                        tools:ignore="RtlHardcoded" />
 
 				</RelativeLayout>
 
@@ -279,14 +289,15 @@
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="753dp"
 					android:layout_width="375dp"
-					android:layout_height="59dp" />
+					android:layout_height="59dp"
+                    tools:ignore="HardcodedText" />
 
 				<View   android:id="@+id/rectangle_368"
 					android:background="@drawable/rectangle_368_shape"
 					 android:alpha="0.30000001192093"
 					 android:layout_marginStart="0dp"
-					android:layout_marginTop="155dp"
-					android:layout_width="375dp"
+					android:layout_marginTop="150dp"
+					android:layout_width="412dp"
 					android:layout_height="657dp" />
 
 				<View   android:id="@+id/rectangle_369"
@@ -306,7 +317,7 @@
 				<TextView android:id="@+id/_60_100"
 					android:textSize="24sp"
 					android:textColor="@color/_bg__chat_lvl_1_preview_ek2_color"
-					android:layout_marginLeft="25dp"
+					android:layout_marginStart="25dp"
 					android:layout_marginTop="704dp"
 					android:layout_width="179dp"
 					android:layout_height="54dp"
@@ -316,7 +327,7 @@
 				<TextView android:id="@+id/lvl_2"
 					android:textSize="24sp"
 					android:textColor="@color/lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__color"
-					android:layout_marginLeft="296dp"
+					android:layout_marginStart="296dp"
 					android:layout_marginTop="702dp"
 					android:layout_width="78dp"
 					android:layout_height="51dp"
@@ -329,12 +340,13 @@
 					 android:layout_marginStart="70dp"
 					android:layout_marginTop="612dp"
 					android:layout_width="128dp"
-					android:layout_height="45dp" />
+					android:layout_height="45dp"
+                    tools:ignore="HardcodedText" />
 
 				<TextView android:id="@+id/view"
 					android:textSize="24sp"
 					android:textColor="@color/_bg__chat_lvl_1_preview_ek2_color"
-					android:layout_marginLeft="111dp"
+					android:layout_marginStart="111dp"
 					android:layout_marginTop="622dp"
 					android:layout_width="140dp"
 					android:layout_height="62dp"
@@ -347,12 +359,13 @@
 					 android:layout_marginStart="200dp"
 					android:layout_marginTop="614dp"
 					android:layout_width="128dp"
-					android:layout_height="45dp" />
+					android:layout_height="45dp"
+                    tools:ignore="HardcodedText" />
 
 				<TextView android:id="@+id/join"
 					android:textSize="24sp"
 					android:textColor="@color/_bg__chat_lvl_1_preview_ek2_color"
-					android:layout_marginLeft="243dp"
+					android:layout_marginStart="243dp"
 					android:layout_marginTop="622dp"
 					android:layout_width="140dp"
 					android:layout_height="62dp"
@@ -365,7 +378,8 @@
 					 android:layout_marginStart="176dp"
 					android:layout_marginTop="776dp"
 					android:layout_width="22dp"
-					android:layout_height="25dp" />
+					android:layout_height="25dp"
+                    tools:ignore="HardcodedText" />
 
 			</RelativeLayout>
 		</RelativeLayout>
