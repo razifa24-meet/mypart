@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- chat_new strings -->
+
+	<string name="app_name">Page 2</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla quam eu faci lisis mollis. </string>
+	<string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </string>
+	<string name="topic_name_string">Topic name</string>
+	<string name="you_are_in_a_view_mode_string">You are in a view mode</string>
+	<string name="back_string">Back</string>
+</resources>

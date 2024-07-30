@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- chat_lvl_1_preview strings -->
+
+	<string name="app_name">Page 3</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla quam eu faci lisis mollis. </string>
+	<string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </string>
+	<string name="back_string">Back</string>
+	<string name="news_string">news</string>
+	<string name="chats_string">chats</string>
+	<string name="required_lvl_1_string">Required lvl 1</string>
+	<string name="topic_name_string">Topic name</string>
+	<string name="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__donec_fringilla_quam_eu_faci_lisis_mollis__ek1_string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla quam eu faci lisis mollis. </string>
+	<string name="_60_100_string">60/100</string>
+	<string name="lvl_2_string">lvl 2</string>
+	<string name="view_string">view</string>
+	<string name="join_string">join</string>
+</resources>
