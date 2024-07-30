@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251043912638",
+    "project_id": "polar-db631",
+    "storage_bucket": "polar-db631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251043912638:android:09fd947f94c664b85d37ef",
+        "android_client_info": {
+          "package_name": "com.example.csmypart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcXpDot3zOGwcjwXLrc5xhpvzXp8rPn_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251043912638:android:918bb6d0863833575d37ef",
+        "android_client_info": {
+          "package_name": "com.example.polar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcXpDot3zOGwcjwXLrc5xhpvzXp8rPn_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
